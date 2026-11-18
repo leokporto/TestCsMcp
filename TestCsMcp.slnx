@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Spin.Scada.Alarms.Data/Spin.Scada.Alarms.Data.csproj" />
+    <Project Path="src/Spin.Scada.Alarms.McpServer/Spin.Scada.Alarms.McpServer.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Spin.Scada.Alarms.Data.Tests/Spin.Scada.Alarms.Data.Tests.csproj" />
+  </Folder>
+</Solution>
