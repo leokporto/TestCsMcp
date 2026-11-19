@@ -1,0 +1,17 @@
+name: ${COMPOSE_PROJECT_NAME}
+
+services:
+  sqlserverdb:
+    container_name: "${COMPOSE_PROJECT_NAME}_sqlsrv"
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD}"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+
+volumes:
+  sqlserver-data:

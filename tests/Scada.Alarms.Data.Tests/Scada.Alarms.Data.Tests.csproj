@@ -4,8 +4,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Spin.Scada.Alarms.Data.Tests</RootNamespace>
-    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Scada.Alarms.Data.Tests</RootNamespace>
+    <TargetFramework>net11.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Spin.Scada.Alarms.Data\Spin.Scada.Alarms.Data.csproj" />
+    <ProjectReference Include="..\..\src\Scada.Alarms.Data\Scada.Alarms.Data.csproj" />
   </ItemGroup>
 
 </Project>

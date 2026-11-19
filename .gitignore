@@ -3,6 +3,12 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# SPIN`s proprietary skills 
+.claude/
+
+# util docs
+docs/
+
 # dotenv files
 .env
 

@@ -1,9 +1,10 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/Spin.Scada.Alarms.Data/Spin.Scada.Alarms.Data.csproj" />
-    <Project Path="src/Spin.Scada.Alarms.McpServer/Spin.Scada.Alarms.McpServer.csproj" />
+    <Project Path="src/Scada.Alarms.Data/Scada.Alarms.Data.csproj" />
+    <Project Path="src/Scada.Alarms.McpServer/Scada.Alarms.McpServer.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/Spin.Scada.Alarms.Data.Tests/Spin.Scada.Alarms.Data.Tests.csproj" />
+    <Project Path="tests/Scada.Alarms.Data.Tests/Scada.Alarms.Data.Tests.csproj" />
+    <Project Path="tests/Scada.Alarms.IntegrationTests/Scada.Alarms.IntegrationTests.csproj" />
   </Folder>
 </Solution>
